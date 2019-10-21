@@ -2,6 +2,7 @@
 #define FUNCIONES_H
 
 #include <vector>
+#include <string>
 using namespace std;
 
 class Enfermedad{
@@ -10,7 +11,7 @@ class Enfermedad{
         vector<Sintoma> sintomas_enf;
     public:
         //constructor
-        Enfermedad(int tipo_enfermedad, vector<Sintoma> sintomas_enf);
+        Enfermedad(int type_enf, vector<Sintoma> symp_enf);
         //metodos de acceso
         bool setSintomas_enf();
         void getSintomas_enf(); 
