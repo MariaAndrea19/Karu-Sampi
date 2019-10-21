@@ -5,43 +5,43 @@
 using namespace std;
 
 class Enfermedad{
-  private:
-    int tipo_enfermedad;
-    vector<Sintoma> sintomas_enf;
-  public:
-    //constructor
-    Enfermedad();
-    //metodos de acceso
-    bool setSintomas_enf();
-    void getSintomas_enf(); 
+    private:
+        int tipo_enfermedad;
+        vector<Sintoma> sintomas_enf;
+    public:
+        //constructor
+        Enfermedad(int tipo_enfermedad, vector<Sintoma> sintomas_enf);
+        //metodos de acceso
+        bool setSintomas_enf();
+        void getSintomas_enf(); 
  };
  
  
  class Sintoma{
-  private:
-    int tipo_sintoma;
-    bool estado_sintoma;
-  public:
-    bool setEstado_sintoma();
-    void getEstado_sintoma();
+    private:
+        int tipo_sintoma;
+        bool estado_sintoma;
+    public:
+        bool setEstado_sintoma();
+        void getEstado_sintoma();
 };
 
 
 class Persona{
-  private:
-    string nombre;
-    int edad;
-    int masa;
-    char genero;
-  public:
+    private:
+        string nombre;
+        int edad;
+        int masa;
+        char genero;
+    public:
     
 };
 
 
 class Red{
-  private:
+    private:
   
-  public:
+    public:
   
 };
 
