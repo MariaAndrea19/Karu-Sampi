@@ -29,9 +29,12 @@ class Enfermedad{
 
 class Persona{
   private:
-  
+    string nombre;
+    int edad;
+    int masa;
+    char genero;
   public:
-  
+    
 };
 
 
