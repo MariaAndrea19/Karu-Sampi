@@ -20,7 +20,6 @@ class Enfermedad{
  
  class Sintoma{
     private:
-        int tipo_sintoma;
         bool estado_sintoma;
     public:
         bool setEstado_sintoma();
