@@ -7,13 +7,12 @@ using namespace std;
 
 class Enfermedad{
     private:
-        int tipo_enfermedad;
         vector<Sintoma> sintomas_enf;
     public:
         //constructor
         Enfermedad(int tipo_enfermedad, vector<Sintoma> sintomas_enf);
         //metodos de acceso
-        vector<Sintoma> getEnfermedad(); 
+        vector<Sintoma> getSintomas_enf(); 
  };
  
 
