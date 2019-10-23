@@ -11,19 +11,21 @@ class Enfermedad{
         vector<Sintoma> sintomas_enf;
     public:
         //constructor
-        Enfermedad(int type_enf, vector<Sintoma> symp_enf);
+        Enfermedad(int tipo_enfermedad, vector<Sintoma> sintomas_enf);
         //metodos de acceso
-        bool setSintomas_enf();
-        void getSintomas_enf(); 
+        vector<Sintoma> getEnfermedad(); 
  };
  
- 
+
  class Sintoma{
     private:
         bool estado_sintoma;
     public:
-        bool setEstado_sintoma();
-        void getEstado_sintoma();
+        //constructor
+        Sintoma(bool estado_sintoma);
+        //metodos de acceso
+        void setEstado_sintoma();
+        bool getEstado_sintoma();
 };
 
 
@@ -34,15 +36,19 @@ class Persona{
         int masa;
         char genero;
     public:
-    
+        void setNombre(string nombre);
+        string getNombre();
+        void setEdad(int edad);
+        int getEdad();
+        void setMasa(int masa);
+        int getMasa();
+        void setGenero(char genero);
+        char getGenero();
 };
 
 
-class Red{
-    private:
-  
-    public:
-  
-};
+void inicializar_enfermedades();
+void inicializar_sintomas();
+
 
 #endif 
