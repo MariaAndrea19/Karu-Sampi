@@ -2,7 +2,7 @@
 **Proyecto de Programación Orientada a Objetos 1**
 
 **INTEGRANTES:**
-- Lily Lopz
+- Lily Lopez
 - Eduardo Castro
 - María Andrea Gonzales
 
