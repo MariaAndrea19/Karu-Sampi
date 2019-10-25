@@ -45,6 +45,30 @@ class Persona{
         char getGenero();
 };
 
+class Medicina{
+    private:
+    
+    public:
+    
+};
+
+class Especialista{
+    private:
+    
+    public:
+    
+};
+
+
+class Informe{
+    private:
+            
+    public:
+    
+};
+
+
+
 
 void inicializar_enfermedades();
 void inicializar_sintomas();
