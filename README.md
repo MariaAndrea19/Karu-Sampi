@@ -1,4 +1,5 @@
-# ProyectoPOO1
+# Karu Sampi: Sistema de diagnóstico a distancia y creación de perfil virtual del paciente
+
 **Proyecto de Programación Orientada a Objetos 1**
 
 **INTEGRANTES:**
