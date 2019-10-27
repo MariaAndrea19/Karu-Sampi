@@ -6,8 +6,8 @@ This repository contains the final proyect of object-oriented programming. Progr
 
 ** E
 
-**Developers**
-* Item 1 Lily Lopez 2019000000
-* Item 2 Eduardo Sebastián Castro Quispe 201910111
-* Item 2 María Andrea Gonzales 2019000000
+### Developers
+* Lily Lopez 2019000000
+* Eduardo Sebastián Castro Quispe 201910111
+* María Andrea Gonzales 2019000000
 
