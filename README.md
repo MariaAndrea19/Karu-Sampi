@@ -4,15 +4,9 @@ This repository contains the final proyect of object-oriented programming. Progr
 
 ## Class
 
-| Person        | Symptom       | Disease|
-| ------------- |:-------------:| ------:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+cPerson | cSymptom | cDisease | cReport | cMedicine | cDoctor 
+--- | --- | --- | --- | --- | ---
+`private` | `private` | `private` | `private` | `private` | `private`
 
 ### Developers
 * Lily Lopez 2019000000
