@@ -1,10 +1,13 @@
-# Karu Sampi: Sistema de diagnóstico a distancia y creación de perfil virtual del paciente
+# Karu Sampi: Remote diagnosis system and creation of virtual patient profile
 
-**Proyecto de Programación Orientada a Objetos 1**
+This repository contains the final proyect of object-oriented programming. Program capable of making a medical diagnosis of flu, cold and allergies
 
-**INTEGRANTES:**
-- Lily Lopez
-- Eduardo Castro
-- María Andrea Gonzales
+## Class
 
-**OBJETIVO:**
+** E
+
+**Developers**
+* Item 1 Lily Lopez 2019000000
+* Item 2 Eduardo Sebastián Castro Quispe 201910111
+* Item 2 María Andrea Gonzales 2019000000
+
