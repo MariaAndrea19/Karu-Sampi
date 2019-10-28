@@ -6,7 +6,7 @@ This repository contains the final proyect of object-oriented programming. Progr
 ### Class
 cPatient   | cSymptom  | cDisease  | cReport    | cMedicine | cDoctor 
 ---        | ---       | ---       | ---        | ---       | ---
-`**private**` | `**private**` | `**private**` | `**private**`  | `**private**` | `**private**`
+**`private`** | `**private**` | `**private**` | `**private**`  | `**private**` | `**private**`
 name       | name      | name      | person     | name      | name
 gender     | intensity | symptoms  | doctor     | dose      | 
 age        | time      |           | medicine   |           |
