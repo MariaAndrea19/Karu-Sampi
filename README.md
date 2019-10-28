@@ -16,6 +16,18 @@ pressure   |           |           |            |           |
 heart rate |           |           |            |           |
 `**public**`   | `**public**`  | `**public**`  | `**public**`   | `**public**`  | `**public**`
 
+Nomenclature Camello> ejem: holaMundo
+
+using text = string
+using gender = bool
+using age = int
+using mass = double
+using length = double
+
+
+## Development
+
+
 #### Developers
 * Lily Lopez 2019000000
 * Eduardo Sebastián Castro Quispe 201910111
