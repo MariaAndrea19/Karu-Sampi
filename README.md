@@ -1,23 +1,27 @@
 # Karu Sampi: Remote diagnosis system and creation of virtual patient profile
-This repository contains the final proyect of object-oriented programming. Program capable of making a medical diagnosis of flu, cold and allergies
+This repository contains the final proyect of object-oriented programming. Program capable of making a medical diagnosis of flu, cold and allergies.
 
 ## Program Architecture
 
 ### Class
-cPatient   | cSymptom  | cDisease  | cReport    | cMedicine | cDoctor 
----        | ---       | ---       | ---        | ---       | ---
-**`private`** |**`private`**| **`private`**| **`private`**  | **`private`** | **`private`**
-name       | name      | name      | person     | name      | name
-gender     | intensity | symptoms  | doctor     | dose      | 
-age        | time      |           | medicine   |           |
-mass       |           |           |            |           |
-height     |           |           |            |           |
-pressure   |           |           |            |           |
-heart rate |           |           |            |           |
-`**public**`   | `**public**`  | `**public**`  | `**public**`   | `**public**`  | `**public**`
+cPatient      | cSymptom      | cDisease      | cReport       | cMedicine     | cDoctor 
+---           | ---           | ---           | ---           | ---           | ---
+**`private`** |**`private`**  | **`private`** | **`private`** | **`private`** | **`private`**
+name          | name          | name          | person        | name          | name
+gender        | intensity     | symptoms      | doctor        | dose          | 
+age           | time          |               | medicine      |               |
+mass          |               |               |               |               |
+height        |               |               |               |               |
+pressure      |               |               |               |               |
+heart rate    |               |               |               |               |
+**`public`**  | **`public`**  | **`public`**  | **`public`**  | **`public`**  | **`public`**
 
-Nomenclature Camello> ejem: holaMundo
 
+### Variables and Nomenclature
+
+**Nomenclature:** Camello
+
+**Variables**
 using text = string
 using gender = bool
 using age = int
