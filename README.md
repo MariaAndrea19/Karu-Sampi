@@ -7,7 +7,7 @@ This repository contains the final proyect of object-oriented programming. Progr
 cPatient      | cSymptom      | cDisease      | cReport       | cMedicine     | cDoctor 
 ---           | ---           | ---           | ---           | ---           | ---
 **`attributes`** |**`attributes`**  | **`attributes`** | **`attributes`** | **`attributes`** | **`attributes`**
-name          | name          | name          | person        | name          | name
+name          | name          | name          | patient        | name          | name
 gender        | intensity     | symptoms      | doctor        | dose          | 
 age           | time          |               | medicine      |               |
 mass          |               |               |               |               |
