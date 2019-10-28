@@ -35,11 +35,11 @@ heart rate    |               |               |               |               |
 
 ### Gantt diagram
 
-Task        | cPatient      | cSymptom      | cDisease      | cReport       | cMedicine     | cDoctor   | Diagnostic Algorithm
----         | ---           | ---           | ---           | ---           | ---           | ---       | ---   
-María Andrea| x | x | x | x |   |   | x |
-Lily        | x | x |   | x | x | x |   |
-Eduardo     | x |   |   |   |   |   | x |
+Task | cPatient | cSymptom | cDisease | cReport | cMedicine | cDoctor | Diagnostic Algorithm
+--- | :---:| :---: | :---: | :---: | :---: | :---: | :---:
+María Andrea | x | x | x | x |   |   | x |
+Lily         | x | x |   | x | x | x |   |
+Eduardo      | x |   |   |   |   |   | x |
 
 #### Developers
 * Lily Lopez 2019000000
