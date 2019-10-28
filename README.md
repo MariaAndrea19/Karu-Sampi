@@ -19,14 +19,14 @@ heart rate    |               |               |               |               |
 
 ### Variables and Nomenclature
 
-**Nomenclature:** Camello
+**Nomenclature** Camello
 
 **Variables**
-using text = string
-using gender = bool
-using age = int
-using mass = double
-using length = double
+* using text = string
+* using gender = bool
+* using age = int
+* using mass = double
+* using length = double
 
 
 ## Development
