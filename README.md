@@ -19,21 +19,18 @@ heart rate    |               |               |               |               |
 
 ### Variables and Nomenclature
 
-**Nomenclature** Camello
+**Nomenclature:** Camello
 
-**Variables**
-* using text = string
-* using gender = bool
-* using age = int
-* using mass = double
-* using length = double
-
+**Variables:**
+* using textT = string;
+* using genderT = bool;
+* using ageT = size_t;
+* using massT = unsigned double;
+* using lengthT = unsigned double;
 
 ## Development
-
 
 #### Developers
 * Lily Lopez 2019000000
 * Eduardo Sebastián Castro Quispe 201910111
 * María Andrea Gonzales 2019000000
-
