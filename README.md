@@ -6,7 +6,7 @@ This repository contains the final proyect of object-oriented programming. Progr
 ### Class
 cPatient      | cSymptom      | cDisease      | cReport       | cMedicine     | cDoctor 
 ---           | ---           | ---           | ---           | ---           | ---
-**`private`** |**`private`**  | **`private`** | **`private`** | **`private`** | **`private`**
+**`attributes`** |**`attributes`**  | **`attributes`** | **`attributes`** | **`attributes`** | **`attributes`**
 name          | name          | name          | person        | name          | name
 gender        | intensity     | symptoms      | doctor        | dose          | 
 age           | time          |               | medicine      |               |
@@ -14,7 +14,10 @@ mass          |               |               |               |               |
 height        |               |               |               |               |
 pressure      |               |               |               |               |
 heart rate    |               |               |               |               |
-**`public`**  | **`public`**  | **`public`**  | **`public`**  | **`public`**  | **`public`**
+**`methods`**  | **`methods`**  | **`methods`**  | **`methods`**  | **`methods`**  | **`methods`**
+       |               |               |               |               |
+      |               |               |               |               |
+     |               |               |               |               |
 
 
 ### Variables and Nomenclature
@@ -29,6 +32,14 @@ heart rate    |               |               |               |               |
 * using lengthT = unsigned double;
 
 ## Development
+
+### Gantt diagram
+
+Task        | cPatient      | cSymptom      | cDisease      | cReport       | cMedicine     | cDoctor   | Diagnostic Algorithm
+---         | ---           | ---           | ---           | ---           | ---           | ---       | ---   
+María Andrea| x | x | x | x |   |   | x |
+Lily        | x | x |   | x | x | x |   |
+Eduardo     | x |   |   |   |   |   | x |
 
 #### Developers
 * Lily Lopez 2019000000
