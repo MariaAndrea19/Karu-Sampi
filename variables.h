@@ -13,6 +13,8 @@ using lengthT = unsigned double;
 using stateT = bool;
 using timeT = int;
 using degreeT = int;
+using rateT = unsigned double;
+using pressureT = unsigned double;
 
 
 #endif
