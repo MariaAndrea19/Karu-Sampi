@@ -1,15 +1,13 @@
 #ifndef KARU_SAMPI_CSYMPTOMS_H
 #define KARU_SAMPI_CSYMPTOMS_H
 
-//typedef bool state;
-
- class cSymptom{
+class cSymptom{
     private:
-        state symptomState;
+        stateT symptomState;
     public:
-        cSymptom(state symptomState);
+        cSymptom(stateT symptomState);
         void setSymptomState();
-        state getSymptomState();
+        stateT getSymptomState();
 };
 
 
