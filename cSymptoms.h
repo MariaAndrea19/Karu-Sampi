@@ -6,10 +6,16 @@
 class cSymptom{
     private:
         stateT symptomState;
+        timeT symptomLength;
+        degreeT symptomIntensity;
     public:
-        cSymptom(stateT symptomState);
+        cSymptom(stateT symptomState, timeT symptomLength, degreeT symptomIntensity);
         void setSymptomState();
         stateT getSymptomState();
+        void setSymptomLenght();
+        timeT getSymptomLength();
+        void setSymptomIntensity();
+        degreeT getSymptomIntensity();
 };
 
 
