@@ -5,7 +5,7 @@
     private:
         bool symptomState;
     public:
-        symptom(bool symptomState);
+        cSymptom(bool symptomState);
         void setSymptomState();
         bool getSymptomState();
 };
