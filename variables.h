@@ -7,7 +7,7 @@ using response = bool;
 
 using textT = string;
 using genderT = bool;
-using ageT = size_t;
+using ageT = int;
 using massT = unsigned double;
 using lengthT = unsigned double;
 using stateT = bool;
