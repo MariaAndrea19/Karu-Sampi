@@ -7,6 +7,8 @@ class cPatient {
         ageT age;
         massT mass;
         lengthT height;
+        pressureT pressure;
+        rateT heartRate;
     public:
         void setName(textT name);
         textT getName();
@@ -16,6 +18,10 @@ class cPatient {
         massT getMass();
         void setGender(genderT gender);
         genderT getGender();
+        void setPressure(pressureT pressure);
+        pressureT getPressure();
+        void setHeartRate(rateT heartRate);
+        rateT getHeartRate();
 };
 
 #endif
