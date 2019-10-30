@@ -1,47 +1,19 @@
 # Karu Sampi: Remote diagnosis system and creation of virtual patient profile
-This repository contains the final proyect of object-oriented programming. Program capable of making a medical diagnosis of flu, cold and allergies.
+
+This repository contains the final project of the Object Oriented Programming course of the University of Engineering and Technology (UTEC). Program capable of making a medical diagnosis of complaint, cold and allergies.
 
 ## Program Architecture
 
-### Class
-cPatient      | cSymptom      | cDisease      | cReport       | cMedicine     | cDoctor 
----           | ---           | ---           | ---           | ---           | ---
-**`attributes`** |**`attributes`**  | **`attributes`** | **`attributes`** | **`attributes`** | **`attributes`**
-name          | name          | name          | patient        | name          | name
-gender        | intensity     | symptoms      | doctor        | dose          | 
-age           | time          |               | medicine      |               |
-mass          |               |               |               |               |
-height        |               |               |               |               |
-pressure      |               |               |               |               |
-heart rate    |               |               |               |               |
-**`methods`**  | **`methods`**  | **`methods`**  | **`methods`**  | **`methods`**  | **`methods`**
-       |               |               |               |               |
-      |               |               |               |               |
-     |               |               |               |               |
+Nomenclature used in the code is Camel.
 
+# Teamwork
 
-### Variables and Nomenclature
+## Gantt diagram
 
-**Nomenclature:** Camello
+# License
 
-**Variables:**
-* using textT = string;
-* using genderT = bool;
-* using ageT = size_t;
-* using massT = unsigned double;
-* using lengthT = unsigned double;
+The developers of this program are:
 
-## Development
-
-### Gantt diagram
-
-Task | cPatient | cSymptom | cDisease | cReport | cMedicine | cDoctor | Diagnostic Algorithm
---- | :---:| :---: | :---: | :---: | :---: | :---: | :---:
-María Andrea | x | x | x | x |   |   | x |
-Lily         | x | x |   | x | x | x |   |
-Eduardo      | x |   |   |   |   |   | x |
-
-#### Developers
-* Lily Lopez 2019000000
-* Eduardo Sebastián Castro Quispe 201910111
-* María Andrea Gonzales 2019000000
+* Micaela Lily López
+* Eduardo Sebastián Castro Quispe
+* María Andrea Gonzales
