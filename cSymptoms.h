@@ -1,7 +1,7 @@
 #ifndef KARU_SAMPI_CSYMPTOMS_H
 #define KARU_SAMPI_CSYMPTOMS_H
 
-//typedef bool=state
+//typedef bool state;
 
  class cSymptom{
     private:
