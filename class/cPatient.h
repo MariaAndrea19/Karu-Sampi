@@ -1,27 +1,34 @@
-#ifndef KARU-SAMPI_CPATIENT_H
-#define KARU-SAMPI_CPATIENT_H
+#ifndef KARU_SAMPI_CLASS_CPATIENT_H
+#define KARU_SAMPI_CLASS_CPATIENT_H
+
+#include "..\types.h"
 
 class cPatient {
-        textT name;
-        genderT gender;
-        ageT age;
-        massT mass;
-        lengthT height;
-        pressureT pressure;
-        rateT heartRate;
+    private:
+        text_t name;
+        gender_t gender;
+        kilogram_t mass;
+        meter_t height;
+        mmhg_t pressure;
+        bpm_t heartRate;
     public:
-        void setName(textT name);
-        textT getName();
-        void setAge(ageT age);
-        ageT getAge();
-        void setMass(massT mass);
-        massT getMass();
-        void setGender(genderT gender);
-        genderT getGender();
-        void setPressure(pressureT pressure);
-        pressureT getPressure();
-        void setHeartRate(rateT heartRate);
-        rateT getHeartRate();
+        cPatient();
+        cPatient(text_t n, gender_t g, kilogram_t m, meter_t h, mmhg_t p, bpm_t hR);
+
+        void setName(text_t n);
+        void setGender(gender_t g);
+        void setMass(kilogram_t m);
+        void setHeight(meter_t h);
+        void setPressure(mmhg_t p);
+        void setHeartRate(bpm_t hR);
+
+        text_t getName();
+        gender_t getGender();
+        kilogram_t getMass();
+        meter_t getHeight();
+        mmhg_t getPressure();
+        bpm_t getHeartRate();
+
 };
 
 #endif

@@ -1,20 +1,25 @@
-#ifndef KARU-SAMPI_TYPES_H
-#define KARU-SAMPI_TYPES_H
+#ifndef KARU_SAMPI_TYPES_H
+#define KARU_SAMPI_TYPES_H
 
+#include <iostream>
 #include <string>
+#include <vector>
 
-using response = bool;
+using namespace std;
 
-using textT = string;
-using genderT = bool;
-using ageT = int;
-using massT = unsigned double;
-using lengthT = unsigned double;
-using stateT = bool;
-using timeT = int;
-using degreeT = int;
-using rateT = unsigned double;
-using pressureT = unsigned double;
+using text_t = string;
+
+using gender_t = bool;
+using year_t = unsigned short int;
+using kilogram_t = unsigned short int;
+using meter_t = double;
+using mmhg_t = double;
+using bpm_t = double;
+
+using state_t = bool;
+using days_t = unsigned short int;
+
+using symptomsState = vector<cSymptom>;
 
 
 #endif

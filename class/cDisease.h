@@ -1,15 +1,14 @@
-#ifndef KARU_SAMPI_CDISEASE_H
-#define KARU_SAMPI_CDISEASE_H
+#ifndef KARU_SAMPI_CLASS_CDISEASE_H
+#define KARU_SAMPI_CLASS_CDISEASE_H
 
-#include "variables.h"
-#include "cSymptoms.h"
+#include "..\types.h"
 
-class cDisease{
-    private:
-        vector<cSymptom> diseaseSymptom;
+class cDisease(){
+        text_t name;
+        symptomsState symptoms;
     public:
-        cDisease(vector<cSymptom> diseaseSymptom);
-        vector<cSymptom> getDiseaseSymptom(); 
+        cDisease();
+        cDisease();
 
 };
 

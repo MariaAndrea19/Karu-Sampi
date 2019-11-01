@@ -1,23 +1,23 @@
-#ifndef KARU_SAMPI_CSYMPTOMS_H
-#define KARU_SAMPI_CSYMPTOMS_H
+#ifndef KARU_SAMPI_CLASS_CSYMPTOMS_H 
+#define KARU_SAMPI_CLASS_CSYMPTOMS_H 
 
-#include "variables.h"
+#include "..\types.h"
 
 class cSymptom{
-    private:
-        stateT symptomState;
-        timeT symptomLength;
-        degreeT symptomIntensity;
+        text_t name;
+        state_t presence;
+        days_t time; 
     public:
-        cSymptom(stateT symptomState, timeT symptomLength, degreeT symptomIntensity);
-        void setSymptomState();
-        stateT getSymptomState();
-        void setSymptomLenght();
-        timeT getSymptomLength();
-        void setSymptomIntensity();
-        degreeT getSymptomIntensity();
+        cSymptom();
+        cSymptom(text_t n, state_t p, days_t t);
+ 
+        void setName(text_t n);
+        void setPresence(state_t p);
+        void setTime(days_t t);
+
+        text_t getName();
+        state_t getPresence();
+        days_t getTime();
 };
-
-
 
 #endif
