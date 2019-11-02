@@ -9,8 +9,13 @@
 
 class cReport{
     private:
-        
+        text_t report ;
     public:
+        cReport();
+        ~cReport();
+        
+        void setReport();
+        text_t getReport();
         
 
 
