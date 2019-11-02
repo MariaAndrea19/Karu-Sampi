@@ -17,10 +17,8 @@ using mmhg_t = double;
 using bpm_t = double;
 
 using state_t = bool;
-using days_t = unsigned short int;
-
-using symptomsState = vector<cSymptom>;
 using intensity_t = unsigned short int;
+using days_t = unsigned short int;
 
 
 #endif
