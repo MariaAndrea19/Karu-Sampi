@@ -1,6 +1,10 @@
 #ifndef KARU-SAMPI-CLASS-CMEDICINE-H
 #define KARU-SAMPI-CLASS-CMEDICINE-H
 
+#include "..\types.h"
+#include "cDisease.h"
+#include "cSymptoms.h"
+
 class cMedicine{
     private:
         text_t name;
