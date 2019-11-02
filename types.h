@@ -11,14 +11,15 @@ using text_t = string;
 
 using gender_t = bool;
 using year_t = unsigned short int;
-using kilogram_t = unsigned short int;
+using kilo_t = unsigned short int;
 using meter_t = double;
 using mmhg_t = double;
 using bpm_t = double;
 
-using state_t = bool;
+using state_t = bool; 
 using intensity_t = unsigned short int;
 using days_t = unsigned short int;
+using price_t = unsigned float;
 
 
 #endif
