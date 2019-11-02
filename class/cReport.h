@@ -9,15 +9,17 @@
 
 class cReport{
     private:
-        text_t report ;
+        text_t report;
+        cPatient patient;
+        consultDoctor doctor;
+        prescription_t medicine;
+    
     public:
         cReport();
         ~cReport();
         
         void setReport();
         text_t getReport();
-        
-
 
 };
 
