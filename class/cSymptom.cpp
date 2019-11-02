@@ -1,4 +1,4 @@
-#include "cSymptoms.h"
+#include "cSymptom.h"
 
 cSymptom::cSymptom(): name(""), presence(false), time(0) {}
 
