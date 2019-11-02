@@ -1,5 +1,5 @@
-#ifndef KARU_SAMPI_CLASS_CSYMPTOMS_H 
-#define KARU_SAMPI_CLASS_CSYMPTOMS_H 
+#ifndef KARU_SAMPI_CLASS_CSYMPTOM_H 
+#define KARU_SAMPI_CLASS_CSYMPTOM_H 
 
 #include "..\types.h"
 
