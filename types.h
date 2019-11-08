@@ -19,9 +19,9 @@ using bpm_t = double;
 using state_t = bool; 
 using intensity_t = unsigned short int;
 using days_t = unsigned short int;
-using price_t = unsigned float;
-using prescription_t = string;
-using consultDoctor = string;
 
+using dose_t = double;
+
+using 
 
 #endif
