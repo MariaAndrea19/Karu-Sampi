@@ -5,7 +5,7 @@ using namespace std;
 
 
 int main(){ 
-    string nombre,
+    string nombre;
     int age, weight, height, pressure, rate;
     double IMC;
     cout<< "¡Hola! Mi nombre es Karu, tu asistente médico. ¿Podrías decirme tu nombre?";
