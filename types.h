@@ -10,6 +10,7 @@ using namespace std;
 using text_t = string;
 
 using gender_t = bool;
+using age_t = unsigned short int;
 using year_t = unsigned short int;
 using kilo_t = unsigned short int;
 using meter_t = double;
