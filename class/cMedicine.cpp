@@ -3,11 +3,26 @@
 cMedicine::cMedicine(): name(""), time(0), disease("") {}
 
 void cMedicine::setName(text_n n) {name = n;}
+void cMedicine::setAge(vector<age_t> aR){ageRange = [];}
+void cMedicine::setDisease(text_t d){Disease = d;}
 
-text_t cMedicine::getName(){return name;}
-time_t cMedicine::getTime(){return time;}
-text_t cMedicine::getDisease(){return disease;}
-
+void initializeMedicine(){
+  cMedicine cetirizina;
+    cetirizina.setName("Cetirizina");
+    cetirizina.setAge([0-5]);
+    cetirizina.setDisease("Alergia");
+  cMedicine hisaler("Hisaler"; [
+  cMedicine loratadina;
+  cMedicine levocetirizina;
+  cMedicine ibuprofeno;
+  cMedicine acetaminofen;
+  cMedicine paracetamol;
+  cMedicine amoxicilina;
+  cMedicine tamiflu;
+  cMedicine abrilar;
+  
+  
+}
 
 //Medicinas a emplear:
 //Alergia
