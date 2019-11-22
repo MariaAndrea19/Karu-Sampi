@@ -20,6 +20,8 @@ class cMedicine{
         text_t getName();
         time_t getTime();
         text_t getDisease();
+    
+        void initializeMedicine();
 
 };
 
