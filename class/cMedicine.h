@@ -16,6 +16,10 @@ class cMedicine{
         cMedicine(text_t n, vector<age_t> aR, text_t d);
         ~cMedicine();
 
+        void setName(text_t name);
+        void setAge(vector<age_t> ageRange);
+        void setDisease (text_t disease);
+    
         void initializeMedicine();
 
 };
