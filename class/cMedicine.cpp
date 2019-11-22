@@ -11,7 +11,7 @@ void initializeMedicine(){
     cetirizina.setName("Cetirizina");
     cetirizina.setAge([0-5]);
     cetirizina.setDisease("Alergia");
-  cMedicine hisaler("Hisaler"; [
+  cMedicine hisaler("Hisaler"; [6-14]
   cMedicine loratadina;
   cMedicine levocetirizina;
   cMedicine ibuprofeno;
