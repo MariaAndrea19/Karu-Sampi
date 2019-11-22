@@ -1,5 +1,5 @@
 #ifndef KARU_SAMPI_CLASS_CMEDICINE_H
-#define KARUP_SAMPI_CLASS_CMEDICINE_H
+#define KARU_SAMPI_CLASS_CMEDICINE_H
 
 #include "..\types.h"
 #include "cDisease.h"
