@@ -8,6 +8,14 @@ text_t cMedicine::getName(){return name;}
 time_t cMedicine::getTime(){return time;}
 text_t cMedicine::getDisease(){return disease;}
 
+void cMedicine::initializeMedicine(){
+    cMedicine cetrizinaKid("Cetrizina"; ;
+    cMedicine hisaler;
+    cMedicine loratadina;
+    cMedicine levocetrizina;
+}
+  
+  
 
 //Medicinas a emplear:
 //Alergia
