@@ -8,7 +8,7 @@
 class cMedicine{
     private:
         text_t name;
-        time_t time;
+        age_t age;
         text_t disease;
     
     public:
@@ -18,7 +18,7 @@ class cMedicine{
         void setName(text_t n);
     
         text_t getName();
-        time_t getTime();
+        age_t getAge();
         text_t getDisease();
     
         void initializeMedicine();
