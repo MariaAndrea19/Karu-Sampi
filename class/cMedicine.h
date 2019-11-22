@@ -4,23 +4,18 @@
 #include "..\types.h"
 #include "cDisease.h"
 #include "cSymptoms.h"
+#include <vector>
 
 class cMedicine{
     private:
         text_t name;
-        age_t age;
+        vector<age_t> ageRange;
         text_t disease;
     
     public:
-        cMedicine();
+        cMedicine(text_t n, vector<age_t> aR, text_t d);
         ~cMedicine();
 
-        void setName(text_t n);
-    
-        text_t getName();
-        age_t getAge();
-        text_t getDisease();
-    
         void initializeMedicine();
 
 };
