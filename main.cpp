@@ -1,8 +1,5 @@
-#include <iostream>
-#include "funciones.h"
 #include <cmath>
-using namespace std;
-
+#include "types.h"
 
 int main(){ 
     string nombre;
@@ -24,8 +21,6 @@ int main(){
         cout<<"¡Uy! Antes de empezar, ¡ten cuidado con tu alimentación! Al parecer tienes más peso de lo que deberías. ¡Cuida tus comidas!";
     else if(IMC<18) cout<<"¡Uy! Antes de empezar, ¡ten cuidado con tu alimentación! Al parecer tienes menos peso de lo que deberías. ¡Cuida tus comidas!";
     else cout<<"¡Te encuentras en tu peso! Felicitaciones, "<< nombre<<".";
-    
-    
    
     inicializar_sintomas();
     
@@ -41,7 +36,6 @@ int main(){
     cout<< "Si con esto no presentas mejora, ¡no te asustes!, solo dale una visita a este especialista"<< (doctor) <<endl<<
         "Ellos sabrán cómo ayudarte, ¡Tú tranquilo!";
     cout<< "Eso sería todo, " << nombre <<". Muchas gracias por confiar en mí, estoy preparado para ayudarte. Muchísima suerte y que te mejores muy pronto. ¡Adiós!";
-    
  
   return 0;
 }
