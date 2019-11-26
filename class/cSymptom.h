@@ -10,13 +10,12 @@ class cSymptom{
             days_t time; 
                     
         public:
-            cSymptom();
-            cSymptom(text_t n, state_t p, days_t t);
+            cSymptom(text_t n, state_t p): name(n), presence(p) {}
      
-            void setName(text_t n);
-            void setPresence(state_t p);
-            void setIntensity(intensity_t i);
-            void setTime(days_t t);
+            void setName(text_t n){name = n;}
+            void setPresence(state_t p){presence = p;}
+            void setIntensity(intensity_t i){intensity = i}
+            void setTime(days_t t){time = t;}
            
             text_t getName();
             state_t getPresence();
