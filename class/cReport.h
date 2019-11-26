@@ -7,7 +7,7 @@
 #include "cDoctor.h"
 
 class cReport {
-        cPatient patient;
+        cPatient* patient;
         cMedicine* medicine;
         cDoctor* doctor;
     public:

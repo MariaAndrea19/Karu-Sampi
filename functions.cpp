@@ -1,8 +1,6 @@
 #include "types.h"
 double IMC;
 
-age_t& age, gender_t& gender, kilogram_t& weight, meter_t& height, mmhg_t& pressure, bpm_t& rate
-
 void introduction(text_t& name, age_t& age, gender_t& gender, kilogram_t& weight, meter_t& height, mmhg_t& pressure, bpm_t& rate){
     cout<< "¡Hola! Mi nombre es Karu, tu asistente médico. ¿Podrías decirme tu nombre?";
     cin>> nombre;
@@ -17,7 +15,7 @@ void introduction(text_t& name, age_t& age, gender_t& gender, kilogram_t& weight
     cout << "¡Increíble! Muchas gracias por responder. Voy a procesar alguno de tus datos.";
 }
 
-    IMC = weight/pow(height, 2);
+/*   IMC = weight/pow(height, 2);
     
     if(IMC>24.99)
         cout << "¡Uy! Antes de empezar, ¡ten cuidado con tu alimentación! Al parecer tienes más peso de lo que deberías. ¡Cuida tus comidas!";
@@ -39,4 +37,4 @@ void introduction(text_t& name, age_t& age, gender_t& gender, kilogram_t& weight
     cout<< "Si con esto no presentas mejora, ¡no te asustes!, solo dale una visita a este especialista"<< (doctor) <<endl<<
         "Ellos sabrán cómo ayudarte, ¡Tú tranquilo!";
     cout<< "Eso sería todo, " << nombre <<". Muchas gracias por confiar en mí, estoy preparado para ayudarte. Muchísima suerte y que te mejores muy pronto. ¡Adiós!";
-}
+} */

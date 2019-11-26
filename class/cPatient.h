@@ -38,6 +38,8 @@ class cPatient {
         bpm_t getHeartRate(){return heartRate;}
         diseases_t getDisease(){return diseases;}
 
+        void diagnosis();
+
 };
 
 #endif
