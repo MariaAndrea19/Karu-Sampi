@@ -1,0 +1,4 @@
+#ifndef KARU_SAMPI_CLASS_CDISEASE_H
+#define KARU_SAMPI_CLASS_CDISEASE_H
+
+#endif 
