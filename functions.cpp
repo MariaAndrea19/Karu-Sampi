@@ -1,38 +1,42 @@
-#include "funciones.h"
+#include "types.h"
+double IMC;
 
-void inicializar_enfermedades(){
-    //Establecieno listas de sintomas por enfermedad
-    vector<Sintoma> sintomas_gripe = {dolor_garganta, dolor_cabeza, agotamiento_extremo, fiebre, fatiga, dolor_muscular, rapidez, tos, congestion};
-    vector<Sintomas> sintomas_resfrio = {dolor_garganta, dolor_cabeza, estornudos, congestion, mucosidad_espesa};
-    vector<Sintomas> sintomas_alergia = {congestion, estornudos, estornudos_constantes, irritacion_ocular};
-    Enfermedad Gripe(1, sintomas_gripe);
-    Enfermedad Resfrio(2, sintomas_resfrio);
-    Enfermedad Alergia(3, sintomas_alergia);
+age_t& age, gender_t& gender, kilogram_t& weight, meter_t& height, mmhg_t& pressure, bpm_t& rate
+
+void introduction(text_t& name, age_t& age, gender_t& gender, kilogram_t& weight, meter_t& height, mmhg_t& pressure, bpm_t& rate){
+    cout<< "¡Hola! Mi nombre es Karu, tu asistente médico. ¿Podrías decirme tu nombre?";
+    cin>> nombre;
+    cout<< "Muy bonito nombre." << "¿Cuántos años tienes?";
+    cin>> age;
+    cout<< "¿Cuánto pesas y cuánto mides? ¡Sin mentir!";
+    cin >> weight >> height;
+    cout << "Muy bien. Ahora, indique al asistente que ingrese su presión arterial, por favor";
+    cin >> pressure;
+    cout << "Y última pregunta, nuevamente el asistente ingrese el pulso cardiaco. ¡Tranquilo! Ya casi terminamos.";
+    cin >> rate;
+    cout << "¡Increíble! Muchas gracias por responder. Voy a procesar alguno de tus datos.";
 }
 
-void inicializar_sintomas(){
-    //Estableciendo todos los sintomas a valor 0 por ahora
-    Sintoma dolor_garganta(0);
-    Sintoma dolor_cabeza(0);
-    Sintoma agotamiento_extremo(0);
-    Sintoma congestion(0);
-    Sintoma tos(0);
-    Sintoma espesor_mucosidad(0);
-    Sintoma fiebre(0);
-    Sintoma fatiga(0);
-    Sintoma dolor_muscular(0);
-    Sintoma estornudos(0);
-    Sintoma rapidez(0);
-    Sintoma estornudos_constantes(0);
-    Sintoma irritacion_ocular(0);
-}
+    IMC = weight/pow(height, 2);
+    
+    if(IMC>24.99)
+        cout << "¡Uy! Antes de empezar, ¡ten cuidado con tu alimentación! Al parecer tienes más peso de lo que deberías. ¡Cuida tus comidas!";
+    else if(IMC<18) cout<<"¡Uy! Antes de empezar, ¡ten cuidado con tu alimentación! Al parecer tienes menos peso de lo que deberías. ¡Cuida tus comidas!";
+    
+    else cout<<"¡Te encuentras en tu peso! Felicitaciones, "<< nombre <<".";
+   
+    inicializar_sintomas();
+    
+    //RED NEURONAL
+    
+    inicializar_enfermedades();
 
-Enfermedad::Enfermedad(int type_enf, vector<Sintoma> symp_enf){
-    tipo_enf = type_enf;
-    sintomas_enf = symp_enf;    
+    //CONTEO DE PROBABILIDADES +
+    cout<<"Ahora, ¿puedes contarme sobre tus síntomas," <<nombre<<"?";
+    cout<<"Entonces, al parecer tienes"<< cDisease.getName() << "Pero no te preocupes, con los cuidados adecuados estarás mejor muy pronto."<<endl
+        <<"Para mejorarte, necesitarás"<< cMedicine.getName()<<"y muuucho reposo, además de no hacer desarreglos, ¿bien?"<<endl<<
+        "Estos medicamentos se encuentran en distintos precios, los cuales pueden ser"<< (precios)<<endl;
+    cout<< "Si con esto no presentas mejora, ¡no te asustes!, solo dale una visita a este especialista"<< (doctor) <<endl<<
+        "Ellos sabrán cómo ayudarte, ¡Tú tranquilo!";
+    cout<< "Eso sería todo, " << nombre <<". Muchas gracias por confiar en mí, estoy preparado para ayudarte. Muchísima suerte y que te mejores muy pronto. ¡Adiós!";
 }
-
-Sintoma::Sintoma(bool type_symp){
-    estado_sintoma = type_symp;
-}
-
