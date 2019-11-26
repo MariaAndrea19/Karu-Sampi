@@ -1,11 +1,5 @@
 #include "cMedicine.h"
 
-cMedicine::cMedicine(): name(""), time(0), disease("") {}
-
-void cMedicine::setName(text_n n) {name = n;}
-void cMedicine::setAge(vector<age_t> aR){ageRange = [];}
-void cMedicine::setDisease(text_t d){Disease = d;}
-
 void initializeMedicine(){
   cMedicine cetirizina;
     cetirizina.setName("Cetirizina");
@@ -21,8 +15,9 @@ void initializeMedicine(){
   cMedicine tamiflu;
   cMedicine abrilar;
   
-  
 }
+
+// Podriamos crear un base de datos en otro documento, propongo crear solo la medicina cuando sea requerida.
 
 //Medicinas a emplear:
 //Alergia

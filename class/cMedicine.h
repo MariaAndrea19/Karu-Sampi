@@ -3,25 +3,19 @@
 
 #include "..\types.h"
 #include "cDisease.h"
-#include "cSymptoms.h"
-#include <vector>
 
 class cMedicine{
     private:
         text_t name;
-        vector<age_t> ageRange;
-        text_t disease;
+        dose_t dose;
     
     public:
-        cMedicine(text_t n, vector<age_t> aR, text_t d);
+        cMedicine(text_t n, dose_t d): name(n), dose(d) {}
         ~cMedicine();
-
-        void setName(text_t name);
-        void setAge(vector<age_t> ageRange);
-        void setDisease (text_t disease);
     
         void initializeMedicine();
-
 };
+
+// Idea: Create a class or a vector to indicate the days to follow the medication.
 
 #endif
