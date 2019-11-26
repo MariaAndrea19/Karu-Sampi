@@ -23,6 +23,4 @@ using days_t = unsigned short int;
 
 using dose_t = double;
 
-using 
-
 #endif
