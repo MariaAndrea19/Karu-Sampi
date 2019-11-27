@@ -15,6 +15,7 @@ using kilogram_t = unsigned short int;
 using meter_t = double;
 using mmhg_t = double;
 using bpm_t = double;
+using imc_t = double;
 
 using state_t = bool; 
 using intensity_t = unsigned short int;
