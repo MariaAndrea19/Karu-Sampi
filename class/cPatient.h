@@ -16,6 +16,8 @@ class cPatient {
         mmhg_t pressure;
         bpm_t heartRate;
         diseases_t diseases;
+        imc_t imc;
+    
     public:
         cPatient(): name(""), age(0), gender(true), mass(0), height(0), pressure(0), heartRate(0) {}
         cPatient(text_t n, age_t a, gender_t g, kilogram_t m, meter_t h, mmhg_t p, bpm_t hR): name(n), age(a), gender(g), mass(m), height(h), pressure(p), heartRate(hR) {}
@@ -28,6 +30,7 @@ class cPatient {
         void setPressure(mmhg_t p){pressure = p;}
         void setHeartRate(bpm_t hR){heartRate = hR;}
         void addDisease(cDisease d){diseases.emplace_back(d);}
+        void calcIMC(){}
 
         text_t getName(){return name;}
         age_t getAge(){return age;}
