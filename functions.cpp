@@ -23,14 +23,15 @@ void introduction(text_t& name, age_t& age, gender_t& gender, kilogram_t& weight
     
     else cout<<"¡Te encuentras en tu peso! Felicitaciones, "<< nombre <<".";
    
-    inicializar_sintomas();
+
+    //CONTEO DE PROBABILIDADES +
+    cout<< "¡Gracias por ser sincero!";
+    cout<<"Ahora, ¿puedes contarme sobre tus síntomas," <<nombre<<"?";
+        inicializar_sintomas();
     
     //RED NEURONAL
     
     inicializar_enfermedades();
-
-    //CONTEO DE PROBABILIDADES +
-    cout<<"Ahora, ¿puedes contarme sobre tus síntomas," <<nombre<<"?";
     cout<<"Entonces, al parecer tienes"<< cDisease.getName() << "Pero no te preocupes, con los cuidados adecuados estarás mejor muy pronto."<<endl
         <<"Para mejorarte, necesitarás"<< cMedicine.getName()<<"y muuucho reposo, además de no hacer desarreglos, ¿bien?"<<endl<<
         "Estos medicamentos se encuentran en distintos precios, los cuales pueden ser"<< (precios)<<endl;
