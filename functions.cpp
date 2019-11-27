@@ -38,3 +38,4 @@ void introduction(text_t& name, age_t& age, gender_t& gender, kilogram_t& weight
         "Ellos sabrán cómo ayudarte, ¡Tú tranquilo!";
     cout<< "Eso sería todo, " << nombre <<". Muchas gracias por confiar en mí, estoy preparado para ayudarte. Muchísima suerte y que te mejores muy pronto. ¡Adiós!";
 } */
+
