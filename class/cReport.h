@@ -14,7 +14,9 @@ class cReport {
         cReport(): medicine(nullptr), doctor(nullptr){}
 
         void setMedicine();
-        void setdoctor();
+        void setDoctor();
+        void getPatient();
+        void showReport();
 };
 
 #endif 
